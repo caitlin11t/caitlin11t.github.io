@@ -1,0 +1,147 @@
+body {
+    background-color: black;
+}
+
+h2, h3, h4, h5 {
+    font-family: helvetica;
+    font-size: 22px
+
+
+}
+
+.logo {
+    height: 50px;
+    margin: 8px;
+}
+
+.cereal {
+  height: 700px;
+  width: 95%;
+  padding: 0px 2.5%;
+  object-fit: cover;
+}
+
+.background {
+  height: 700px;
+  width: 95%;
+  padding: 0px 2.5%;
+  object-fit: cover;
+}
+
+.links {
+ color: white;
+ text-decoration: underline;
+ display: flex;
+ flex-direction: row;
+}
+
+.links h4 {
+    padding: 8px;
+ }
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+}
+
+.mission {
+    color: white;
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+   
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+h2, h4{
+    color: white;
+    text-align: center;
+}
+
+.pic img{
+    height: 190px;
+    width: 270px;
+    
+}
+
+.pic {
+    padding: 0px 5px;
+}
+
+.pics {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.locations {
+    color: white;
+    text-align: center; 
+    position: absolute;
+    top: 10%;
+    width: 100%;
+}
+
+.cont {
+
+position: relative;
+    text-align: center;
+}
+
+.oak, .east, .down {
+    color: white;
+    background-color: black;
+    text-align: center;
+   
+}
+
+.oak {
+    text-align: center; 
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    width: 20%;
+    height: 40%;
+}
+
+.east {
+    text-align: center; 
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 20%;
+    height: 40%;
+}
+
+.down {
+    text-align: center; 
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 20%;
+    height: 40%;
+}
+
+.cozy {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.copy {
+    color: white;
+    text-align: left;
+    left: 5%
+}
+
